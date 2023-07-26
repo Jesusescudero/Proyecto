@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para el formulario */
+  .form {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado del formulario */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Estilos para la tabla */
+  table {
+    width: 110%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Estilos para la imagen */
+  img {
+    width: 70px;
+    height: 50px;
+    margin-top: 3%;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos para el botón de subir imagen */
+  .submit-button {
+    margin-top: 5px;
+  }
+  
+  /* Estilos para centrar el contenido de la tabla */
+  .centro2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="text"],
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos adicionales según tu preferencia */
+  

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.main-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.main-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.main-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.main-container p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.contact-info {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    flex: 1 1 300px;
+    max-width: 400px;
+    transition: box-shadow 0.3s;
+}
+
+.contact-info:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem;
+}
+
+.services {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    flex: 1 1 300px;
+    max-width: 400px;
+    transition: box-shadow 0.3s;
+}
+
+.services:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Media query para ajustar el diseño en dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info,
+    .services {
+        margin: 1rem 0;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para el contenedor del formulario */
+  div {
+    display: flex; /* Agregamos flexbox para mostrar los productos en línea */
+    flex-wrap: wrap; /* Permitimos que los elementos se envuelvan en líneas adicionales si es necesario */
+    justify-content: space-between; /* Distribuimos los elementos equitativamente con espacio entre ellos */
+    max-width: 800px; /* Ancho máximo del contenedor para evitar que se vuelva demasiado ancho */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para cada producto */
+  form {
+    width: 200px; /* Ancho individual de cada producto */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la imagen */
+  img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los títulos */
+  h4, h5 {
+    margin: 0;
+  }
+  
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  /* Estilos para el botón de comprar */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

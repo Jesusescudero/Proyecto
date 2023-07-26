@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<link rel="stylesheet" href="Estilos/style.css">
+
+</head>
+<body>
+<header class="header">
+        <h1>Bordado Encantador</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/SistemaBordadoA/index?clase=controladorprincipal&metodo=iniciouser">Inicio</a></li>
+                <li><a href="/SistemaBordadoA/index?clase=controladorprenda&metodo=Catalogoropainicio">Catalogo</a></li>
+                <li><a href="/SistemaBordadoA/index?clase=controladorlogin&metodo=acercadecliente">Acerca de</a></li>
+                <li><a href="/SistemaBordadoA/index?clase=controladorlogin&metodo=cerrarsesion">Cerrar sesion</a></li>
+            </ul>
+    </header>
+    <section class="container">
+        <!-- aqui vamos a llamar a los elementos que vamos a mostrar posteriormente-->
+        <?php include_once($vista); ?>
+    </section>
+    <footer class="footer">
+        <h3> &copy;Derechos reservados</h3>
+    </footer>
+
+</html>
+
+

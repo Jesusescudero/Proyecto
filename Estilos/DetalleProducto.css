@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+/* Estilos para cada formulario individual */
+.form {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  max-width: 300px; /* Limita el ancho máximo del formulario */
+}
+
+.form img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Agrega espacio entre la imagen y el texto */
+}
+
+.form h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.form h5 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 5px; /* Agrega espacio entre los elementos */
+}
+
+.form h5:last-child {
+  margin-bottom: 10px; /* Un espacio mayor después del último h5 */
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="submit"] {
+  display: block; /* Cada campo estará en una fila separada */
+  width: 100%;
+  margin-bottom: 10px; /* Agrega espacio entre los campos */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+

@@ -1,0 +1,209 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  .header {
+    background-color:  #ffb1ee;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Navegación */
+  .navbar {
+    background-color: rgb(255, 101, 255);
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 1.3em;
+  }
+  
+  ul.submenu-1 li ul.submenu-2 li {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    opacity: 1;
+  }
+
+  /* Contenido */
+  .container {
+    padding: 20px;
+  }
+  
+  .container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin: 0;
+  }
+  
+  /* Pie de página */
+  .footer {
+    background-color: #242124f1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+ 
+    /* formulario de login*/
+  .login-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #bab6ff;
+    border-radius: 5px;
+  }
+  
+  .login-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #169c86;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #53ff58;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .login-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  /* Pie de página */
+.footer {
+    background-color: #242124f1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+
+  /* Estilo del submenú */
+.submenu {
+  display: none;
+  position: absolute;
+  background-color:  #ffb1ee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 10px;
+  top: 100%;
+  left: 0;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+}
+
+.has-submenu {
+  position: relative;
+}
+
+.submenu li {
+  margin-bottom: 5px;
+}
+
+.submenu a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+}
+
+ /* Estilo de los botones de navegacion*/
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 6px;
+  background-color: rgb(153, 225, 239);
+  color: #000000;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-right: 20px;
+  font-size: 1.0em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.but {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

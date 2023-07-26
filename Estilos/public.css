@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.box div {
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.box:hover img {
+    transform: scale(1.1);
+}
+
+.box h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.box hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 1rem 0;
+}
+
+.box p {
+    text-align: justify;
+    line-height: 1.6;
+    padding-left: 1rem;
+}
+
+/* Agregar animación para cambiar la imagen cada 2 segundos */
+@keyframes changeImage {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    33% { opacity: 1; }
+    53% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.box div img {
+    animation: changeImage 10s linear infinite;
+}
+
+/* Media query para ajustar el diseño en dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box div {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .box h1 {
+        text-align: center;
+    }
+}
